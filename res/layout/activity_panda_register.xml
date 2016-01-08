@@ -1,0 +1,191 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="${relativePackage}.${activityClass}">
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:background="@color/title"
+                    android:gravity="center_vertical"
+                    android:id="@+id/rel"
+            >
+        <ImageView android:layout_width="wrap_content"
+                   android:layout_height="match_parent"
+                   android:src="@drawable/back"
+                   android:padding="10dp"
+                   android:id="@+id/back"
+                />
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="match_parent"
+                  android:text="熊猫医生"
+                  android:layout_centerHorizontal="true"
+                  android:textColor="@color/white"
+                  android:gravity="center_vertical"
+                  android:textSize="20dp"
+                  android:id="@+id/title"
+                />
+
+
+    </RelativeLayout>
+
+    <ImageView
+            android:id="@+id/panda_register_imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="55dp"
+            android:src="@drawable/u11_normal"/>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/layout_total"
+                  android:layout_below="@id/panda_register_imageView"
+                  android:orientation="vertical"
+            >
+
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="42dip"
+                android:layout_marginLeft="40dip"
+                android:layout_marginRight="40dip"
+                android:layout_marginTop="40dip"
+                android:background="@drawable/box_editor"
+                android:orientation="horizontal"
+                android:padding="3dip">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:paddingLeft="10dip"
+                    android:text="手机号"
+
+                    android:textColor="@color/editor_login"
+                    android:textSize="16sp"/>
+
+            <EditText
+                    android:id="@+id/panda_register_phone_editText"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@color/transparent"
+                    android:paddingLeft="5dip"
+                    android:singleLine="true"
+                    android:textColor="@color/text_login"
+                    android:textSize="16sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="42dip"
+                android:layout_marginLeft="40dip"
+                android:layout_marginRight="40dip"
+                android:layout_marginTop="30dip"
+                android:background="@drawable/box_editor"
+                android:orientation="horizontal"
+                android:padding="3dip">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:paddingLeft="10dip"
+                    android:text="密    码"
+                    android:textColor="@color/editor_login"
+
+                    android:textSize="16sp"/>
+
+            <EditText
+                    android:id="@+id/panda_register_passwd_editText"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@color/transparent"
+                    android:inputType="textPassword"
+                    android:paddingLeft="5dip"
+                    android:singleLine="true"
+                    android:textColor="@color/text_login"
+                    android:textSize="16sp"/>
+
+        </LinearLayout>
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="42dip"
+                android:layout_marginLeft="40dip"
+                android:layout_marginRight="40dip"
+                android:layout_marginTop="30dip"
+                android:background="@drawable/box_editor"
+                android:orientation="horizontal"
+                android:padding="3dip">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:paddingLeft="10dip"
+                    android:text="昵    称"
+                    android:textColor="@color/editor_login"
+
+                    android:textSize="16sp"/>
+
+            <EditText
+                    android:id="@+id/panda_register_niki_name_editText"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@color/transparent"
+
+                    android:paddingLeft="5dip"
+                    android:singleLine="true"
+                    android:textColor="@color/text_login"
+                    android:textSize="16sp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <TextView
+            android:id="@+id/panda_register_copyright_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/layout_total"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="85dp"
+            android:text="阅读并同意"/>
+
+    <TextView
+            android:id="@+id/panda_register_copyright_textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="30dp"
+            android:layout_below="@id/layout_total"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/panda_register_copyright_textView"
+            android:textColor="#FF0000"
+            android:text="熊猫医生协议"/>
+
+
+    <Button
+            android:id="@+id/panda_register_button"
+            android:layout_width="285dp"
+            android:layout_height="42dp"
+            android:layout_below="@id/panda_register_copyright_textView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@color/freetitle"
+            android:gravity="center"
+            android:text="登录"
+            android:textColor="@color/white"
+            android:textSize="20sp"/>
+
+    <TextView
+            android:id="@+id/panda_register_has_account_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@+id/panda_register_button"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="260dp"
+            android:textColor="#0000EE"
+            android:text="已有账号"/>
+
+</RelativeLayout>

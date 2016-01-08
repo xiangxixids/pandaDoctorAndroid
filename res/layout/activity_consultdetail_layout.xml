@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:background="@color/title"
+                    android:gravity="center_vertical"
+                    android:id="@+id/rel"
+            >
+        <ImageView android:layout_width="wrap_content"
+                   android:layout_height="match_parent"
+                   android:src="@drawable/back"
+                   android:padding="10dp"
+                   android:id="@+id/back"
+                />
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="match_parent"
+                  android:text="人民医院"
+                  android:layout_centerHorizontal="true"
+                  android:textColor="@color/white"
+                  android:gravity="center_vertical"
+                  android:textSize="20dp"
+                  android:id="@+id/title"
+                />
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="match_parent"
+                  android:text="关闭"
+                  android:layout_alignParentRight="true"
+                  android:textColor="@color/white"
+                  android:textSize="20dp"
+                  android:gravity="center_vertical"
+                  android:padding="10dp"
+                  android:id="@+id/close"
+                />
+
+    </RelativeLayout>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="150dp"
+                  android:orientation="horizontal"
+            >
+        <ImageView android:layout_width="80dp"
+                   android:layout_height="match_parent"
+                   android:src="@drawable/discover_item_icon"
+                   android:id="@+id/doctor_head"
+                   android:layout_marginLeft="30dp"
+
+                />
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:layout_marginLeft="40dp"
+                      android:orientation="vertical"
+                      android:paddingTop="35dp"
+                      android:paddingBottom="20dp"
+                >
+            <LinearLayout android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:orientation="horizontal"
+                    >
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="名字 ："
+                          android:textColor="@color/freetitle"
+                        />
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="孙晓"
+                          android:id="@+id/doctor_name"
+                          android:textColor="@color/freetitle"
+                        />
+
+            </LinearLayout>
+            <LinearLayout android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:orientation="horizontal"
+                          android:layout_marginTop="5dp"
+                    >
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="职称 ："
+                          android:textColor="@color/freetitle"
+                        />
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="副主任医院"
+                          android:textColor="@color/freetitle"
+                          android:id="@+id/doctor_title"
+                        />
+
+            </LinearLayout>
+            <LinearLayout android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:orientation="horizontal"
+                          android:layout_marginTop="5dp"
+                    >
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="医院 ："
+                          android:textColor="@color/freetitle"
+                        />
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="人民医院"
+                          android:id="@+id/doctor_hospital"
+                          android:textColor="@color/freetitle"
+                        />
+
+            </LinearLayout>
+            <LinearLayout android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:orientation="horizontal"
+                          android:layout_marginTop="5dp"
+                    >
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="科室 ："
+                          android:textColor="@color/freetitle"
+                        />
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="妇科"
+                          android:id="@+id/doctor_clinic"
+                          android:textColor="@color/freetitle"
+                        />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:gravity="center_horizontal"
+            >
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textColor="@android:color/white"
+                  android:padding="5dp"
+                  android:text="2015-05-24 23:35:12"
+                  android:id="@+id/start_time"
+                  android:background="@color/textbggrey"
+                />
+
+    </LinearLayout>
+    <ListView android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:id="@+id/consultdetail_list"
+
+            >
+
+    </ListView>
+
+
+</LinearLayout>

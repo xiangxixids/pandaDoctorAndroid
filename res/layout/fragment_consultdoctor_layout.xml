@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+            >
+        <LinearLayout android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:paddingLeft="20dp"
+                      android:paddingTop="50dp"
+                >
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="欢迎使用春雨医生"
+                      android:textSize="20dp"
+                      android:textStyle="bold"
+                    />
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="100%真实公立医院医生"
+                      android:layout_marginTop="20dp"
+                    />
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="三分钟内回复"
+                      android:layout_marginTop="10dp"
+                    />
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_alignParentBottom="true"
+                      android:orientation="horizontal"
+                      android:layout_marginBottom="10dp"
+                >
+            <AutoCompleteTextView android:layout_width="match_parent"
+                                  android:layout_height="39dp"
+
+                                  android:background="@drawable/button_normal_shape"
+                                  android:hint="按姓名查询"
+
+                                  android:layout_weight="20"
+                                  android:layout_marginLeft="10dp"
+                                  android:layout_marginRight="10dp"
+                                  android:paddingLeft="5dp"
+                                  android:textSize="18sp"
+                                  android:singleLine="true"
+                                  android:id="@+id/contracts_all_edit"
+                    />
+            <Button android:layout_width="wrap_content"
+                    android:layout_height="39dp"
+                    android:padding="5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="2"
+                    android:text="提问"
+                    android:textColor="@color/white"
+                    android:id="@+id/contracts_all_search"
+                    android:background="@drawable/button_normal1_shape"
+                    />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

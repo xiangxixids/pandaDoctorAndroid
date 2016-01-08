@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:background="@color/title"
+                    android:gravity="center_vertical"
+                    android:id="@+id/rel"
+            >
+        <ImageView android:layout_width="wrap_content"
+                   android:layout_height="match_parent"
+                   android:src="@drawable/back"
+                   android:padding="10dp"
+                   android:id="@+id/back"
+                />
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="match_parent"
+                  android:text="熊猫医生"
+                  android:layout_centerHorizontal="true"
+                  android:textColor="@color/white"
+                  android:gravity="center_vertical"
+                  android:textSize="20dp"
+                  android:id="@+id/title"
+                />
+
+
+    </RelativeLayout>
+    <ProgressBar
+            android:id="@+id/recordActivity_progressBar"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" />
+    <TextView
+            android:id="@+id/recordActivity_title_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="18dp"
+            android:layout_marginLeft="50dp"
+            android:textColor="@color/tomato"
+            android:textSize="18sp"
+            />
+
+    <TextView
+            android:id="@+id/recordActivity_title_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="18dp"
+            android:layout_marginRight="80dp"
+            android:textColor="@color/tomato"
+            android:textSize="18sp"
+            />
+    <View
+            android:id="@+id/recordActivity_line"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/background_line_gray"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/recordActivity_title_one"/>
+
+    <ListView
+            android:id="@+id/record_activity_listView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/recordActivity_line"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="60dp"
+            >
+    </ListView>
+
+
+</RelativeLayout>

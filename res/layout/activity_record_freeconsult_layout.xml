@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:background="@color/title"
+                    android:gravity="center_vertical"
+                    android:id="@+id/rel"
+            >
+        <ImageView android:layout_width="wrap_content"
+                   android:layout_height="match_parent"
+                   android:src="@drawable/back"
+                   android:padding="10dp"
+                   android:id="@+id/back"
+                />
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="match_parent"
+                  android:text="免费提问"
+                  android:layout_centerHorizontal="true"
+                  android:textColor="@color/white"
+                  android:gravity="center_vertical"
+                  android:textSize="20dp"
+                  android:id="@+id/consulttitle"
+                />
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="match_parent"
+                  android:text="注销"
+                  android:layout_alignParentRight="true"
+                  android:textColor="@color/white"
+                  android:textSize="20dp"
+                  android:gravity="center_vertical"
+                  android:padding="10dp"
+                  android:id="@+id/close"
+                />
+
+    </RelativeLayout>
+    <FrameLayout android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:id="@+id/freeconsultframe"
+                 android:layout_below="@id/rel"
+                 android:paddingBottom="45dp"
+            >
+
+    </FrameLayout>
+
+
+    <View
+            android:id="@+id/recordActivity_line"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/lightgrey"
+            android:layout_above="@+id/line"/>
+
+</RelativeLayout>

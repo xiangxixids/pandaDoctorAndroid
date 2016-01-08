@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+    <LinearLayout android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical"
+                  android:layout_marginBottom="60dp"
+            >
+
+
+        <ImageView android:layout_width="match_parent"
+                   android:layout_height="wrap_content"/>
+        <RelativeLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+            <ImageView android:layout_width="wrap_content"
+                       android:layout_height="match_parent"
+                       android:src="@drawable/discover_item_icon"
+                       android:id="@+id/headimg"
+                       android:layout_marginLeft="5dp"
+                       android:gravity="center_vertical"
+                    />
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="match_parent"
+                      android:text="jk"
+                      android:textColor="@color/red"
+                      android:id="@+id/freeconsultname"
+                      android:layout_toRightOf="@id/headimg"
+                      android:gravity="center_vertical"
+                      android:paddingLeft="10dp"
+                      android:paddingRight="5dp"
+                    />
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="match_parent"
+                      android:text="的问题记录"
+                      android:id="@+id/freetext1"
+                      android:layout_toRightOf="@id/freeconsultname"
+                      android:gravity="center_vertical"
+
+                    />
+
+
+        </RelativeLayout>
+        <ListView android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:id="@+id/freeconsultlist"
+                >
+        </ListView>
+    </LinearLayout>
+    <Button
+            android:id="@+id/freetext2"
+            android:layout_width="285dp"
+            android:layout_height="42dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/button_normal1_shape"
+            android:gravity="center"
+            android:text="我要提问"
+            android:textColor="@color/white"
+            android:textSize="20sp"/>
+</RelativeLayout>

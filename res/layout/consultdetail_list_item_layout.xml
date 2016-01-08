@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:paddingBottom="15dp"
+                android:paddingTop="15dp"
+                android:layout_height="80dp">
+    <ImageView android:layout_width="50dp"
+               android:layout_height="match_parent"
+               android:src="@drawable/discover_item_icon"
+               android:id="@+id/headimg"
+               android:layout_alignParentRight="true"
+               android:layout_marginRight="10dp"
+
+            />
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="asdasdasasdasda"
+              android:layout_alignParentRight="true"
+              android:layout_marginRight="70dp"
+              android:paddingLeft="40dp"
+              android:layout_centerVertical="true"
+              android:id="@+id/consultdetailcontent"
+            />
+
+</RelativeLayout>

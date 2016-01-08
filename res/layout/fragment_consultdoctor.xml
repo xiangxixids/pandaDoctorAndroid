@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <WebView android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:id="@+id/consulte_doctor_webview"
+            >
+
+    </WebView>
+    <!--<RelativeLayout android:layout_width="match_parent"-->
+    <!--android:layout_height="40dp"-->
+
+    <!-->-->
+    <!--<ImageView android:layout_width="wrap_content"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:src="@drawable/sth"-->
+    <!--android:layout_centerVertical="true"-->
+    <!--android:padding="10dp"-->
+    <!--/>-->
+    <!--<TextView android:layout_width="wrap_content"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:gravity="center_vertical"-->
+    <!--android:text="咨询医生"-->
+    <!--android:textSize="20dp"-->
+    <!--/>-->
+
+    <!--</RelativeLayout>-->
+    <!--<View-->
+    <!--android:id="@+id/recordActivity_line"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="1dp"-->
+    <!--android:background="@color/lightgrey"-->
+    <!--android:layout_below="@+id/title"/>-->
+    <!--<RelativeLayout android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!-->-->
+    <!--<LinearLayout android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="vertical"-->
+    <!--android:paddingLeft="20dp"-->
+    <!--android:paddingTop="50dp"-->
+    <!-->-->
+    <!--<TextView android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="欢迎使用春雨医生"-->
+    <!--android:textSize="20dp"-->
+    <!--android:textStyle="bold"-->
+    <!--/>-->
+    <!--<TextView android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="100%真实公立医院医生"-->
+    <!--android:layout_marginTop="20dp"-->
+    <!--/>-->
+    <!--<TextView android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="三分钟内回复"-->
+    <!--android:layout_marginTop="10dp"-->
+    <!--/>-->
+    <!--</LinearLayout>-->
+    <!--<LinearLayout android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:orientation="horizontal"-->
+    <!--android:layout_marginBottom="10dp"-->
+    <!--android:id="@+id/line"-->
+    <!-->-->
+    <!--<AutoCompleteTextView android:layout_width="match_parent"-->
+    <!--android:layout_height="39dp"-->
+
+    <!--android:background="@drawable/button_normal_shape"-->
+    <!--android:hint="输入您的问题(10个字以上)"-->
+
+    <!--android:layout_weight="20"-->
+    <!--android:layout_marginLeft="10dp"-->
+    <!--android:layout_marginRight="10dp"-->
+    <!--android:paddingLeft="5dp"-->
+    <!--android:textSize="18sp"-->
+    <!--android:singleLine="true"-->
+    <!--android:id="@+id/contracts_all_edit"-->
+    <!--/>-->
+    <!--<Button android:layout_width="wrap_content"-->
+    <!--android:layout_height="39dp"-->
+    <!--android:padding="5dp"-->
+    <!--android:layout_marginRight="10dp"-->
+    <!--android:layout_weight="2"-->
+    <!--android:text="提问"-->
+    <!--android:textColor="@color/white"-->
+    <!--android:id="@+id/consulte_doctor_"-->
+    <!--android:background="@drawable/button_normal1_shape"-->
+    <!--/>-->
+    <!--</LinearLayout>-->
+    <!--<View-->
+    <!--android:id="@+id/recordActivity_line"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="1dp"-->
+    <!--android:background="@color/lightgrey"-->
+    <!--android:layout_above="@+id/line"-->
+    <!--android:layout_marginBottom="10dp"-->
+    <!--/>-->
+
+    <!--</RelativeLayout>-->
+
+
+</LinearLayout>

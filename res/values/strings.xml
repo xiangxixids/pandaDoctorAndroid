@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="app_name">熊猫医生</string>
+    <string name="action_feed">关于我们</string>
+    <string name="plus_take_photo">拍化验单</string>
+    <string name="name">皮维 注销</string>
+    <string name="gridview1">三大常规</string>
+    <string name="gridview2">肝脏项目</string>
+    <string name="gridview3">肾脏类</string>
+    <string name="gridview4">甲状腺功能</string>
+    <string name="gridview5">血糖血脂</string>
+    <string name="gridview6">肿瘤项目</string>
+    <string name="gridview7">孕妇项目</string>
+    <string name="gridview8">优生项目</string>
+    <string name="gridview9">其他</string>
+    <string name="title_activity_huayandan_main_item">HuayandanMainItemActivity</string>
+    <string name="title_activity_huayandan_sub_item">HuayandanSubItemActivity</string>
+    <string name="title_activity_huayandan_detail_item">HuayandanDetailItemActivity</string>
+    <string name="title_activity_huayandan_detail">HuayandanDetailActivity</string>
+    <string name="title_activity_huayandan_fill">HuayandanFillActivity</string>
+    <string name="title_activity_huayandan_result">HuayandanResultActivity</string>
+    <string name="save">保存化验单</string>
+    <string name="back_to_top">返回首页</string>
+    <string name="title_activity_panda_login">PandaLoginActivity</string>
+    <string name="title_activity_panda_register">PandaRegisterActivity</string>
+    <string name="title_activity_panda_copy_right">PandaCopyRightActivity</string>
+
+    <string name="umengppkey">555c0f5b67e58e0497004fed</string>
+    <string name="umengmessagescret">cc33710fdf3462f7dd16e4db1c3f216e</string>
+
+    <string name="test_umengppkey">559f4b2467e58e4531002851</string>
+    <string name="test_umengmessagescret">7284b78f8c5dcfb7ca494f105a197824</string>
+
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+
+    <!--<item android:drawable="@drawable/contracts_btn_pressed_bg" android:state_pressed="true"></item>-->
+    <!--<item android:drawable="@drawable/contracts_btn_stroke_bg"></item>-->
+
+</selector>

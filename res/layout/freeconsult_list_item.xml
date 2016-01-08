@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+              android:layout_height="50dp">
+    <!--<ImageView android:layout_width="wrap_content"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:src="@drawable/discover_item_icon"-->
+    <!--android:id="@+id/freeimg1"-->
+    <!--android:gravity="center_vertical"-->
+    <!--/>-->
+    <!--<TextView android:layout_width="wrap_content"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:text="jk"-->
+    <!--android:textColor="@color/red"-->
+    <!--android:id="@+id/freeconsultname"-->
+    <!--android:layout_toRightOf="@id/freeimg1"-->
+    <!--android:gravity="center_vertical"-->
+    <!--android:paddingLeft="10dp"-->
+    <!--/>-->
+    <!--<TextView android:layout_width="wrap_content"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:text="的问题记录"-->
+    <!--android:id="@+id/freetext1"-->
+    <!--android:layout_toRightOf="@id/freeconsultname"-->
+    <!--android:gravity="center_vertical"-->
+
+    <!--/>-->
+    <!--<TextView android:layout_width="wrap_content"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:text="我要提问"-->
+    <!--android:id="@+id/freetext2"-->
+    <!--android:layout_alignParentRight="true"-->
+    <!--android:gravity="center_vertical"-->
+    <!--android:layout_marginRight="50dp"-->
+    <!--/>-->
+    <!--<ImageView android:layout_width="wrap_content"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:src="@drawable/arrow_right"-->
+    <!--android:id="@+id/freeimg2"-->
+    <!--android:layout_alignParentRight="true"-->
+    <!--android:gravity="center_vertical"-->
+    <!--android:layout_marginRight="20dp"-->
+    <!--/>-->
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical"
+                  android:id="@+id/line"
+            >
+
+
+        <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="内容"
+              android:id="@+id/content"
+              android:layout_marginLeft="8dp"
+              android:layout_marginTop="5dp"
+            />
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/state"
+              android:text="state"
+              android:layout_marginLeft="8dp"
+              android:layout_marginTop="5dp"
+              android:paddingBottom="5dp"
+              android:textColor="@color/grey"
+            />
+    </LinearLayout>
+    <ImageView android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/arrow_right"
+               android:id="@+id/freeimg2"
+               android:layout_alignParentRight="true"
+               android:layout_centerVertical="true"
+               android:layout_marginRight="10dp"
+
+            />
+</RelativeLayout>

@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="${relativePackage}.${activityClass}">
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:background="@color/title"
+                    android:gravity="center_vertical"
+                    android:id="@+id/rel"
+            >
+        <ImageView android:layout_width="wrap_content"
+                   android:layout_height="match_parent"
+                   android:src="@drawable/back"
+                   android:padding="10dp"
+                   android:id="@+id/back"
+                />
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="match_parent"
+                  android:text="熊猫医生"
+                  android:layout_centerHorizontal="true"
+                  android:textColor="@color/white"
+                  android:gravity="center_vertical"
+                  android:textSize="20dp"
+                  android:id="@+id/title"
+                />
+
+
+    </RelativeLayout>
+
+    <TextView
+            android:id="@+id/huayandan_fill_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/rel"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="35dp"
+            android:textSize="20dp"
+            android:text="检测项目"
+            android:textStyle="bold"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            />
+
+    <TextView
+            android:id="@+id/huayandan_fill_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/rel"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:text="阴性(-) 或 阳性(+)"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+    <ListView
+            android:id="@+id/huayandan_fill_listView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/huayandan_fill_button"
+            android:layout_alignParentRight="true"
+            android:paddingRight="13dp"
+            android:paddingLeft="13dp"
+            android:layout_below="@+id/huayandan_fill_title">
+
+    </ListView>
+    <Button
+            android:id="@+id/huayandan_fill_button"
+            android:layout_width="285dp"
+            android:layout_height="42dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/button_normal1_shape"
+            android:gravity="center"
+            android:text="一键解读"
+            android:textColor="@color/white"
+            android:textSize="20sp"/>
+</RelativeLayout>

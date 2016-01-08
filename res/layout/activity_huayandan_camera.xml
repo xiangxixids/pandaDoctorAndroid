@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+
+        >
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/rel"
+            >
+
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:orientation="horizontal"
+                >
+
+            <SurfaceView android:layout_width="match_parent"
+                         android:layout_height="match_parent"
+                         android:id="@+id/surface"
+                         android:layout_weight="3"
+                    />
+
+
+        </LinearLayout>
+
+
+        <ImageView android:layout_width="match_parent" android:layout_height="2dp"
+                   android:background="@android:color/holo_orange_light"
+                   android:layout_centerInParent="true"
+
+
+                   android:id="@+id/line"
+                />
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="拍照时按照水平线对准"
+                  android:textColor="@android:color/holo_green_dark"
+                  android:layout_below="@id/line"
+                  android:layout_centerHorizontal="true"
+                  android:layout_marginTop="20dp"
+                  android:id="@+id/bz"
+
+                />
+        <Button android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/test"
+                android:text="拍照"
+                android:layout_marginRight="10dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/camerabutton_shap"
+                />
+
+        <ImageView android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/sc"
+                   android:padding="10dp"
+                   android:id="@+id/back"
+                />
+
+        <ImageView android:layout_width="50dp"
+                   android:layout_height="50dp"
+
+                   android:layout_marginTop="10dp"
+                   android:src="@drawable/camera_deng_on"
+                   android:id="@+id/camera_on"
+                   android:layout_centerHorizontal="true"
+                />
+
+    </RelativeLayout>
+
+    <ImageView android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:id="@+id/saveimg"
+               android:visibility="gone"
+            />
+
+    <LinearLayout android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:layout_alignParentBottom="true"
+                  android:layout_centerHorizontal="true"
+                  android:layout_marginBottom="60dp"
+                  android:id="@+id/saveline"
+                  android:visibility="gone"
+            >
+
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="50dp"
+                  android:background="@color/freetitle"
+                  android:text="取消"
+                  android:id="@+id/cancel"
+                  android:textColor="@color/white"
+                  android:textSize="18sp"
+                  android:gravity="center_vertical"
+                  android:paddingLeft="20dp"
+                  android:paddingRight="20dp"
+                  android:layout_weight="1"
+                />
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="50dp"
+                  android:background="@color/freetitle"
+                  android:text="保存 "
+                  android:id="@+id/save"
+                  android:textColor="@color/white"
+                  android:textSize="18sp"
+                  android:gravity="center_vertical"
+                  android:paddingLeft="20dp"
+                  android:paddingRight="20dp"
+                  android:layout_weight="1"
+                />
+    </LinearLayout>
+
+</RelativeLayout>
+

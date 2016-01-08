@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+        >
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical"
+                  android:paddingLeft="8dp"
+                  android:paddingRight="8dp">
+
+        <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:text="我的病历"
+                android:textColor="@color/tomato"
+                android:textSize="18sp"
+                />
+        <View
+                android:id="@+id/recordActivity_line"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/background_line_gray"
+                android:layout_below="@+id/title"/>
+        <ListView
+                android:id="@+id/listview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawSelectorOnTop="false"/>
+
+    </LinearLayout>
+
+    <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="160dp"
+            android:id="@+id/myconsult"
+            android:src="@drawable/chunyu"
+            />
+</RelativeLayout>

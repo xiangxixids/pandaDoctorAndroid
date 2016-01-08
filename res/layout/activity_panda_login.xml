@@ -1,0 +1,177 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="${relativePackage}.${activityClass}">
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:background="@color/title"
+                    android:gravity="center_vertical"
+                    android:id="@+id/rel"
+            >
+        <ImageView android:layout_width="wrap_content"
+                   android:layout_height="match_parent"
+                   android:src="@drawable/back"
+                   android:padding="10dp"
+                   android:id="@+id/back"
+                />
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="match_parent"
+                  android:text="熊猫医生"
+                  android:layout_centerHorizontal="true"
+                  android:textColor="@color/white"
+                  android:gravity="center_vertical"
+                  android:textSize="20dp"
+                  android:id="@+id/title"
+                />
+
+
+    </RelativeLayout>
+    <ImageView
+            android:id="@+id/panda_imageView_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="55dp"
+            android:src="@drawable/u11_normal"/>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/layout_total"
+                  android:layout_marginTop="5dp"
+                  android:layout_below="@id/panda_imageView_login"
+                  android:orientation="vertical"
+            >
+
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="42dip"
+                android:layout_marginLeft="40dip"
+                android:layout_marginRight="40dip"
+                android:layout_marginTop="40dip"
+                android:background="@drawable/box_editor"
+                android:orientation="horizontal"
+                android:padding="3dip">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:paddingLeft="10dip"
+                    android:text="手机号"
+
+                    android:textColor="@color/editor_login"
+                    android:textSize="16sp"/>
+
+            <EditText
+                    android:id="@+id/panda_login_editText_username"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@color/transparent"
+                    android:paddingLeft="5dip"
+                    android:singleLine="true"
+                    android:textColor="@color/text_login"
+                    android:textSize="16sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="42dip"
+                android:layout_marginLeft="40dip"
+                android:layout_marginRight="40dip"
+                android:layout_marginTop="30dip"
+                android:background="@drawable/box_editor"
+                android:orientation="horizontal"
+                android:padding="3dip">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:paddingLeft="10dip"
+                    android:text="密    码"
+                    android:textColor="@color/editor_login"
+
+                    android:textSize="16sp"/>
+
+            <EditText
+                    android:id="@+id/panda_login_editText_passwd"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@color/transparent"
+                    android:inputType="textPassword"
+                    android:paddingLeft="5dip"
+                    android:singleLine="true"
+                    android:textColor="@color/text_login"
+                    android:textSize="16sp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <TextView
+            android:id="@+id/panda_login_textView_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="38dp"
+            android:layout_marginTop="380dp"
+            android:textColor="#0000EE"
+            android:text="免费注册"/>
+
+    <TextView
+            android:id="@+id/panda_login_textView_copyright"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+
+            android:layout_marginTop="430dp"
+            android:text="成都爪黄飞电科技版权所有"/>
+
+    <LinearLayout android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_centerHorizontal="true"
+                  android:layout_marginTop="470dp"
+                  android:orientation="horizontal"
+            >
+        <ImageView android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/logo_qq"
+                   android:id="@+id/logo_qq"
+
+                />
+        <!--<ImageView android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:src="@drawable/logo_wechat"-->
+        <!--android:layout_marginLeft="30dp"-->
+        <!--android:id="@+id/logo_wechat"-->
+        <!--/>-->
+        <ImageView android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/logo_sinaweibo"
+                   android:layout_marginLeft="30dp"
+                   android:id="@+id/logo_sinaweibo"
+                />
+
+    </LinearLayout>
+
+    <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="50dip"
+            android:layout_below="@id/layout_total"
+            android:layout_marginTop="15dp"
+            android:layout_centerHorizontal="true"
+            >
+
+        <Button
+                android:id="@+id/panda_button_login_btn"
+                android:layout_width="285dp"
+                android:layout_height="42dp"
+
+                android:background="@color/freetitle"
+                android:gravity="center"
+                android:text="登录"
+                android:textColor="@color/white"
+                android:textSize="20sp"/>
+    </RelativeLayout>
+
+</RelativeLayout>

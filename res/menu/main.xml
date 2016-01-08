@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.example.wechatsample.MainActivity" >
+
+    <item
+            android:id="@+id/username"
+            android:icon="@drawable/ofm_add_icon"
+            android:title="@string/name"/>
+    <item
+            android:id="@+id/action_feed"
+            android:icon="@drawable/ofm_feedback_icon"
+            android:title="@string/action_feed"/>
+
+</menu>
